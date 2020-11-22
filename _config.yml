@@ -4,7 +4,7 @@ bio:                'Colors provides readings of stories for children.'
 description:        "Colors provides readings of stories for children."
 locale:             en_US
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://jb88001199.github.io/MomoColour.github.io/" # the base hostname & protocol for your site
+url: "jb88001199.github.io/MomoColour.github.io" # the base hostname & protocol for your site
 
 # Comments
 disqus_shortname:   default
