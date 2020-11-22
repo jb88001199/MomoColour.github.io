@@ -1,36 +1,68 @@
+# Site
+title:              Colors!
+bio:                'Colors provides readings of stories for children.'
+description:        "Colors provides readings of stories for children."
+locale:             en_US
 baseurl: "/jb88001199.github.io" # the subpath of your site, e.g. /blog
-url: "http://jb88001199.github.io/MomoColour.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jb88001199.github.io/MomoColour.github.io/" # the base hostname & protocol for your site
 
-# Build settings
-markdown: kramdown
-permalink: pretty
-plugins:
-  - jekyll-sitemap
-compress_html:
-  clippings: all
-  comments: all
-  startings: [html, head, body]
+# Comments
+disqus_shortname:   default
 
-# Pages Path
+# Social
+analytics-id:       "default"
+twitter:            default
+facebook:           default
+instagram:          default
+github:             default
+
+# personal
+location:           Los Angeles, CA
+phone:              310-318-5555
+email:              info@default.com # change this to your email to receive free emails for your contact submissions via Slapform.com
+
+# Other
+background_image:   /images/bg.jpg
+# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
+slapform_thankyou_page: /thank-you
+
 defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    author:
 
-include:
-  - _pages
-
+# Jekyll
+permalink:          /blog/:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
 sass:
-  sass_dir: assets/scss
-  style: compressed
+  sass_dir:         _sass
+  style:            compressed
 
-# Exclude from processing.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.text
-  - README.md
-  - SECURITY.md
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
-theme: jekyll-theme-midnight
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]

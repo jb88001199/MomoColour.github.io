@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.7colorstory.com//feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://www.7colorstory.com//feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.7colorstory.com//" rel="alternate" type="text/html" /><updated>2020-10-10T19:29:26-04:00</updated><id>http://www.7colorstory.com//</id><title type="html">Colors!</title><subtitle>Colors provides readings of stories for children.</subtitle><entry><title type="html">Starfish</title><link href="http://www.7colorstory.com//blog/Starfish/" rel="alternate" type="text/html" title="Starfish" /><published>2020-10-10T00:00:00-04:00</published><updated>2020-10-10T00:00:00-04:00</updated><id>http://www.7colorstory.com//blog/Starfish</id><content type="html" xml:base="http://www.7colorstory.com//blog/Starfish/">&lt;p&gt;Starfish, a story.&lt;/p&gt;
+
+&lt;!--## Testing
+
+&lt;i&gt;Testing&lt;/i&gt;, &lt;b&gt;testing&lt;/b&gt;
+
+## How to Use This Theme
+Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
+
+Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively) and save it to any folder you want.
+
+Open a terminal window or a command line and ```cd``` to that location.
+
+Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
+
+## Features
+### Auto-Generating Sitemap
+The sitemap is auto generated! Just simply change the front matter of each site. It looks like so...
+```
+sitemap:
+    priority: 0.7
+    lastmod: 2017-11-02
+    changefreq: weekly
+```
+### Formspring integration
+The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
+
+--&gt;</content><summary type="html">Starfish</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.7colorstory.com//images/pic02.jpg" /></entry></feed>
